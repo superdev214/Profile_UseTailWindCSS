@@ -16,6 +16,7 @@ const Home = () => {
       {/* Navigation bar place */}
 
       <Nav />
+      {/* Picture Button */}
     </div>
   );
 };
