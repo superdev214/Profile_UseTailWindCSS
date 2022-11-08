@@ -1,12 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}"],
+  content: ["./src/**/*.{html,js,jsx}", ],
   theme: {
-    container: {center: true, },
-    extend: {},
-    screen: {
-      '2xl' :'1400px',
+    extend: {
+      screen:{
+        '2xl' : { 'col' : '(min-width:1400px'},
+      },
+      backgroundImage: {
+        // bodyBG: "url('./public/background.jpg')",
+      },
     },
   },
   plugins: [],
-}
+};
