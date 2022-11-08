@@ -26,24 +26,28 @@ const Nav = () => {
       <NavLink
         to="/"
         className="before:content-[''] before:bg-green-500 before:absolute before:bottom-[-2px] left-[0px] before:w-0 before:invisible before:transition-all before:delay-150 before:ease-in-out before:delay-0  before:h-[2px]  text-white/[.8] font-[Poppins,sans-serif] text-[16px] ml-[30px] hover:text-white hover:before:visible hover:before:w-[30px]"
+        onClick={() => setClassActive("Home")}
       >
         Resume
       </NavLink>
       <NavLink
         to="/"
         className="before:content-[''] before:bg-green-500 before:absolute before:bottom-[-2px] left-[0px] before:w-0 before:invisible before:transition-all before:delay-150 before:ease-in-out before:delay-0  before:h-[2px]  text-white/[.8] font-[Poppins,sans-serif] text-[16px] ml-[30px] hover:text-white hover:before:visible hover:before:w-[30px]"
+        onClick={() => setClassActive("Home")}
       >
         Services
       </NavLink>
       <NavLink
         to="/"
         className="before:content-[''] before:bg-green-500 before:absolute before:bottom-[-2px] left-[0px] before:w-0 before:invisible before:transition-all before:delay-150 before:ease-in-out before:delay-0  before:h-[2px]  text-white/[.8] font-[Poppins,sans-serif] text-[16px] ml-[30px] hover:text-white hover:before:visible hover:before:w-[30px]"
+        onClick={() => setClassActive("Home")}
       >
         Portfolio
       </NavLink>
       <NavLink
         to="/"
         className="before:content-[''] before:bg-green-500 before:absolute before:bottom-[-2px] left-[0px] before:w-0 before:invisible before:transition-all before:delay-150 before:ease-in-out before:delay-0  before:h-[2px]  text-white/[.8] font-[Poppins,sans-serif] text-[16px] ml-[30px] hover:text-white hover:before:visible hover:before:w-[30px]"
+        onClick={() => setClassActive("Home")}
       >
         Contact
       </NavLink>
